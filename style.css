@@ -1,0 +1,91 @@
+.container-2 .services .card {
+    flex: 1 1 auto;
+    min-width: 270px;
+    height: 300px;
+    background: #181818;
+    padding: 20px 20px;
+    border-radius: 20px;
+    display: block;
+    position: relative;
+    margin: 36px;
+}
+
+.container-2 .services .card:hover {
+    transform: scale(1.05);
+}
+
+.container-2 .services .card:last-child {
+    max-width: 925px;
+}
+
+.container-2 .services .card i {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    padding: 0;
+    color: #C8C8C8;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+}
+
+.container-2 .services .card span {
+    width: auto;
+    height: 30px;
+    background: transparent;
+    padding: 2px 0px;
+    color: #C8C8C8;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    margin-left: 40PX;
+    text-align: center;
+}
+
+
+.container-2 .services .card div {
+    width: 100%;
+    height: 5px;
+    background: #1E1E1E;
+    padding: 0;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.container-2 .services .card p {
+    width: auto;
+    height: auto;
+    max-width: 265px;
+    background: transparent;
+    padding: 10px;
+    color: #C8C8C8;
+    font-size: 14px;
+    font-weight: 700;
+    word-wrap: break-word;
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.container-2 .services .card:hover i,
+.container-2 .services .card:hover span,
+.container-2 .services .card:hover p {
+    color: #fff;
+}
+
+.footer {
+    width: 100%;
+    height: 30px;
+    background: #181818;
+    color: #C8C8C8;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
